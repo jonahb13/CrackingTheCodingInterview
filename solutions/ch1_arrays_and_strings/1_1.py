@@ -49,7 +49,7 @@ print('Using Hash Map (not unique):', has_unique_chars_hash_map(not_unique))
 
 
 """
-Approach #2: Sort Chars in String
+Approach #3: Sort Chars in String
 Time Complexity: O(n*log(n))
 Space Complexity: O(1)
 """
