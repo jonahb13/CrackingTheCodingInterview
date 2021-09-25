@@ -21,8 +21,8 @@ matrix2 = [[1, 2, 3, 4],
            [5, 4, 3, 2]]
 
 def zero_matrix(mat):
-    rows = [False for i in range(len(mat))]
-    cols = [False for j in range(len(mat[0]))]
+    rows = [False for _ in range(len(mat))]
+    cols = [False for _ in range(len(mat[0]))]
     for i in range(len(mat)):
         for j in range(len(mat[i])):
             if mat[i][j] == 0:
